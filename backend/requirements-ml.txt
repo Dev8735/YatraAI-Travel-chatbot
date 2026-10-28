@@ -1,0 +1,2 @@
+# Optional: real multilingual embeddings. Pulls in PyTorch (~1 GB on disk).
+sentence-transformers==3.3.1

@@ -1,0 +1,319 @@
+{
+  "_note": "Evaluation questions over the bundled demo corpus. expected_doc is the slug of the article that answers the question, or null if the corpus does not contain the answer (the assistant should decline).",
+  "qa": [
+    {
+      "q": "What is the best time to visit Varanasi?",
+      "expected_doc": "varanasi",
+      "must_contain": "October to March"
+    },
+    {
+      "q": "Where is the Ganga Aarti held every evening in Varanasi?",
+      "expected_doc": "varanasi",
+      "must_contain": "Dashashwamedh"
+    },
+    {
+      "q": "Are phones allowed inside Kashi Vishwanath Temple?",
+      "expected_doc": "varanasi",
+      "must_contain": "phones"
+    },
+    {
+      "q": "Why is Jaipur called the Pink City?",
+      "expected_doc": "jaipur",
+      "must_contain": "pink"
+    },
+    {
+      "q": "When was Hawa Mahal built?",
+      "expected_doc": "jaipur",
+      "must_contain": "1799"
+    },
+    {
+      "q": "How far is Amber Fort from the old city of Jaipur?",
+      "expected_doc": "jaipur",
+      "must_contain": "11 km"
+    },
+    {
+      "q": "Who founded Udaipur?",
+      "expected_doc": "udaipur",
+      "must_contain": "Udai Singh"
+    },
+    {
+      "q": "Where can I watch the sunset in Udaipur?",
+      "expected_doc": "udaipur",
+      "must_contain": "Sajjangarh"
+    },
+    {
+      "q": "Which Goa beaches are quieter for a relaxed stay?",
+      "expected_doc": "goa",
+      "must_contain": "Palolem"
+    },
+    {
+      "q": "Can you swim in Goa during the monsoon?",
+      "expected_doc": "goa",
+      "must_contain": "unsafe"
+    },
+    {
+      "q": "Which church in Goa holds the relics of St. Francis Xavier?",
+      "expected_doc": "goa",
+      "must_contain": "Bom Jesus"
+    },
+    {
+      "q": "When does rafting season run in Rishikesh?",
+      "expected_doc": "rishikesh",
+      "must_contain": "September"
+    },
+    {
+      "q": "Is Laxman Jhula open in Rishikesh?",
+      "expected_doc": "rishikesh",
+      "must_contain": "2019"
+    },
+    {
+      "q": "Is alcohol served in Rishikesh?",
+      "expected_doc": "rishikesh",
+      "must_contain": "alcohol"
+    },
+    {
+      "q": "When is the Nehru Trophy boat race in Alleppey?",
+      "expected_doc": "kerala",
+      "must_contain": "August"
+    },
+    {
+      "q": "Which animal does Eravikulam National Park protect?",
+      "expected_doc": "kerala",
+      "must_contain": "tahr"
+    },
+    {
+      "q": "When does the Neelakurinji bloom in Munnar?",
+      "expected_doc": "kerala",
+      "must_contain": "twelve years"
+    },
+    {
+      "q": "When was Sabarmati Ashram Gandhi's home?",
+      "expected_doc": "gujarat",
+      "must_contain": "1917"
+    },
+    {
+      "q": "When is the Rann Utsav held in Kutch?",
+      "expected_doc": "gujarat",
+      "must_contain": "November"
+    },
+    {
+      "q": "How tall is the Statue of Unity?",
+      "expected_doc": "gujarat",
+      "must_contain": "182"
+    },
+    {
+      "q": "When do Tatkal train bookings open?",
+      "expected_doc": "train-travel",
+      "must_contain": "10:00"
+    },
+    {
+      "q": "How many days in advance can I book Indian train tickets?",
+      "expected_doc": "train-travel",
+      "must_contain": "60 days"
+    },
+    {
+      "q": "What does RAC mean on a train ticket?",
+      "expected_doc": "train-travel",
+      "must_contain": "Reservation Against Cancellation"
+    },
+    {
+      "q": "What is the per day budget for mid-range travel?",
+      "expected_doc": "budget-planning",
+      "must_contain": "3,000"
+    },
+    {
+      "q": "When does the monsoon reach Kerala?",
+      "expected_doc": "seasons",
+      "must_contain": "June"
+    },
+    {
+      "q": "Which season is best for Himalayan hill stations?",
+      "expected_doc": "seasons",
+      "must_contain": "April to June"
+    },
+    {
+      "q": "What is the visa policy for Antarctica?",
+      "expected_doc": null
+    },
+    {
+      "q": "What is the price of a flight from Delhi to Tokyo?",
+      "expected_doc": null
+    },
+    {
+      "q": "Who won the cricket world cup in 2011?",
+      "expected_doc": null
+    },
+    {
+      "q": "How do I renew my passport in Canada?",
+      "expected_doc": null
+    }
+  ],
+  "intents": [
+    {
+      "text": "hi there",
+      "intent": "greeting_help"
+    },
+    {
+      "text": "namaskar",
+      "intent": "greeting_help"
+    },
+    {
+      "text": "What are the timings of the Ganga Aarti?",
+      "intent": "website_qa"
+    },
+    {
+      "text": "Is it safe to swim in Goa in July?",
+      "intent": "website_qa"
+    },
+    {
+      "text": "Make me a 5 day itinerary for Kerala",
+      "intent": "itinerary_create"
+    },
+    {
+      "text": "plan my honeymoon trip to Udaipur for 3 days",
+      "intent": "itinerary_create"
+    },
+    {
+      "text": "Rajasthan ka 6 din ka plan banao",
+      "intent": "itinerary_create"
+    },
+    {
+      "text": "ગોવા માટે 3 દિવસનો પ્લાન બનાવો",
+      "intent": "itinerary_create"
+    },
+    {
+      "text": "वाराणसी के लिए 2 दिन की योजना बनाओ",
+      "intent": "itinerary_create"
+    },
+    {
+      "text": "Which is better for a family, Shimla or Manali?",
+      "intent": "destination_compare"
+    },
+    {
+      "text": "Jaipur vs Udaipur",
+      "intent": "destination_compare"
+    },
+    {
+      "text": "उदयपुर और जोधपुर की तुलना करें",
+      "intent": "destination_compare"
+    },
+    {
+      "text": "How much would 3 days in Jaipur cost for 2 people?",
+      "intent": "budget_estimate"
+    },
+    {
+      "text": "Udaipur trip ka kharcha kitna hoga?",
+      "intent": "budget_estimate"
+    },
+    {
+      "text": "How far is Agra from Delhi?",
+      "intent": "route_lookup"
+    },
+    {
+      "text": "Driving time from Mumbai to Pune",
+      "intent": "route_lookup"
+    },
+    {
+      "text": "મુંબઈથી પુણે કેટલું દૂર છે?",
+      "intent": "route_lookup"
+    },
+    {
+      "text": "Is there a train from Ahmedabad to Udaipur?",
+      "intent": "transport_info"
+    },
+    {
+      "text": "How do I get to Munnar?",
+      "intent": "transport_info"
+    },
+    {
+      "text": "Rishikesh kaise pahunche?",
+      "intent": "transport_info"
+    },
+    {
+      "text": "Show me hotels in Goa",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "where to stay in Varanasi",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "उदयपुर में ठहरने के लिए होटल",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "best places to visit in Delhi",
+      "intent": "place_search"
+    },
+    {
+      "text": "museums in Ahmedabad",
+      "intent": "place_search"
+    },
+    {
+      "text": "Udaipur mein ghumne ki jagah",
+      "intent": "place_search"
+    },
+    {
+      "text": "અમદાવાદમાં જોવાલાયક સ્થળો",
+      "intent": "place_search"
+    },
+    {
+      "text": "Suggest somewhere with mountains for a week",
+      "intent": "destination_discovery"
+    },
+    {
+      "text": "where can we travel in December?",
+      "intent": "destination_discovery"
+    },
+    {
+      "text": "honeymoon destination suggestions",
+      "intent": "destination_discovery"
+    },
+    {
+      "text": "blorp zing",
+      "intent": "unknown"
+    }
+  ],
+  "crosslingual": [
+    {
+      "q": "वाराणसी जाने का सबसे अच्छा समय क्या है?",
+      "expected_doc": "varanasi",
+      "lang": "hi"
+    },
+    {
+      "q": "ऋषिकेश में राफ्टिंग कब होती है?",
+      "expected_doc": "rishikesh",
+      "lang": "hi"
+    },
+    {
+      "q": "जयपुर को गुलाबी शहर क्यों कहा जाता है?",
+      "expected_doc": "jaipur",
+      "lang": "hi"
+    },
+    {
+      "q": "तत्काल टिकट बुकिंग कब खुलती है?",
+      "expected_doc": "train-travel",
+      "lang": "hi"
+    },
+    {
+      "q": "ગોવામાં ચોમાસામાં તરવું સલામત છે?",
+      "expected_doc": "goa",
+      "lang": "gu"
+    },
+    {
+      "q": "સ્ટેચ્યુ ઓફ યુનિટી કેટલી ઊંચી છે?",
+      "expected_doc": "gujarat",
+      "lang": "gu"
+    },
+    {
+      "q": "ગીર નેશનલ પાર્ક ક્યારે બંધ હોય છે?",
+      "expected_doc": "gujarat",
+      "lang": "gu"
+    },
+    {
+      "q": "ઉદયપુરમાં સૂર્યાસ્ત ક્યાં જોવો?",
+      "expected_doc": "udaipur",
+      "lang": "gu"
+    }
+  ]
+}
