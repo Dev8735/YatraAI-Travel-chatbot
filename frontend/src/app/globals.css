@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/* Restrained, travel-inspired palette: deep indigo-teal ink, saffron accent, warm sand surfaces. */
+:root {
+  --background: #faf7f2;
+  --surface: #ffffff;
+  --surface-muted: #f3eee6;
+  --foreground: #1c2430;
+  --muted: #5b6573;
+  --border: #e4ddd2;
+  --primary: #0f5f6b;
+  --primary-hover: #0b4b55;
+  --primary-foreground: #ffffff;
+  --accent: #d9822b;
+  --accent-soft: #fbead6;
+  --danger: #b42318;
+  --danger-soft: #fdecea;
+  --success: #1f7a4d;
+  --success-soft: #e3f4ea;
+  --warning: #8a5a00;
+  --warning-soft: #fff4d6;
+  --focus: #d9822b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #11161d;
+    --surface: #18202a;
+    --surface-muted: #1f2934;
+    --foreground: #e8edf2;
+    --muted: #9aa6b4;
+    --border: #2c3846;
+    --primary: #4fb3bf;
+    --primary-hover: #6cc3cd;
+    --primary-foreground: #0b1418;
+    --accent: #f0a457;
+    --accent-soft: #3a2a17;
+    --danger: #f97066;
+    --danger-soft: #3b1714;
+    --success: #5fd39a;
+    --success-soft: #11301f;
+    --warning: #f5c451;
+    --warning-soft: #352a10;
+    --focus: #f0a457;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-fraunces);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+/* Visible, consistent keyboard focus everywhere. */
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,970 @@
+{
+ "_note": "Sample dataset for demo mode. Names are well-known public landmarks; coordinates are approximate; visit durations are planning assumptions. No ratings, opening hours, prices or photos are included because they are not verified here.",
+ "places": [
+  {
+   "id": "demo-amber-fort",
+   "destination": "Jaipur",
+   "name": "Amber Fort",
+   "lat": 26.9855,
+   "lng": 75.8513,
+   "category": "fort",
+   "tags": [
+    "heritage",
+    "forts",
+    "photography"
+   ],
+   "typical_visit_minutes": 150
+  },
+  {
+   "id": "demo-hawa-mahal",
+   "destination": "Jaipur",
+   "name": "Hawa Mahal",
+   "lat": 26.9239,
+   "lng": 75.8267,
+   "category": "monument",
+   "tags": [
+    "heritage",
+    "photography"
+   ],
+   "typical_visit_minutes": 45
+  },
+  {
+   "id": "demo-city-palace-jaipur",
+   "destination": "Jaipur",
+   "name": "City Palace, Jaipur",
+   "lat": 26.9258,
+   "lng": 75.8237,
+   "category": "palace",
+   "tags": [
+    "heritage",
+    "museums"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-jantar-mantar-jaipur",
+   "destination": "Jaipur",
+   "name": "Jantar Mantar, Jaipur",
+   "lat": 26.9248,
+   "lng": 75.8246,
+   "category": "monument",
+   "tags": [
+    "heritage",
+    "history"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-nahargarh-fort",
+   "destination": "Jaipur",
+   "name": "Nahargarh Fort",
+   "lat": 26.9373,
+   "lng": 75.8155,
+   "category": "fort",
+   "tags": [
+    "heritage",
+    "forts",
+    "photography"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-albert-hall-museum",
+   "destination": "Jaipur",
+   "name": "Albert Hall Museum",
+   "lat": 26.9116,
+   "lng": 75.8195,
+   "category": "museum",
+   "tags": [
+    "museums",
+    "heritage"
+   ],
+   "typical_visit_minutes": 75
+  },
+  {
+   "id": "demo-johari-bazaar",
+   "destination": "Jaipur",
+   "name": "Johari Bazaar",
+   "lat": 26.922,
+   "lng": 75.827,
+   "category": "market",
+   "tags": [
+    "shopping",
+    "food"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-jal-mahal-viewpoint",
+   "destination": "Jaipur",
+   "name": "Jal Mahal viewpoint",
+   "lat": 26.9535,
+   "lng": 75.8463,
+   "category": "viewpoint",
+   "tags": [
+    "photography",
+    "lakes"
+   ],
+   "typical_visit_minutes": 30
+  },
+  {
+   "id": "demo-city-palace-udaipur",
+   "destination": "Udaipur",
+   "name": "City Palace, Udaipur",
+   "lat": 24.5764,
+   "lng": 73.6835,
+   "category": "palace",
+   "tags": [
+    "heritage",
+    "museums"
+   ],
+   "typical_visit_minutes": 120
+  },
+  {
+   "id": "demo-lake-pichola",
+   "destination": "Udaipur",
+   "name": "Lake Pichola",
+   "lat": 24.572,
+   "lng": 73.679,
+   "category": "lake",
+   "tags": [
+    "lakes",
+    "photography",
+    "nature"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-jagdish-temple",
+   "destination": "Udaipur",
+   "name": "Jagdish Temple",
+   "lat": 24.5795,
+   "lng": 73.6841,
+   "category": "temple",
+   "tags": [
+    "spiritual",
+    "heritage"
+   ],
+   "typical_visit_minutes": 40
+  },
+  {
+   "id": "demo-bagore-ki-haveli",
+   "destination": "Udaipur",
+   "name": "Bagore Ki Haveli",
+   "lat": 24.58,
+   "lng": 73.682,
+   "category": "museum",
+   "tags": [
+    "heritage",
+    "museums",
+    "culture"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-saheliyon-ki-bari",
+   "destination": "Udaipur",
+   "name": "Saheliyon Ki Bari",
+   "lat": 24.601,
+   "lng": 73.687,
+   "category": "garden",
+   "tags": [
+    "nature",
+    "heritage"
+   ],
+   "typical_visit_minutes": 45
+  },
+  {
+   "id": "demo-fateh-sagar-lake",
+   "destination": "Udaipur",
+   "name": "Fateh Sagar Lake",
+   "lat": 24.6,
+   "lng": 73.677,
+   "category": "lake",
+   "tags": [
+    "lakes",
+    "nature"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-monsoon-palace-sajjangarh",
+   "destination": "Udaipur",
+   "name": "Monsoon Palace (Sajjangarh)",
+   "lat": 24.594,
+   "lng": 73.639,
+   "category": "palace",
+   "tags": [
+    "heritage",
+    "photography"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-ambrai-ghat",
+   "destination": "Udaipur",
+   "name": "Ambrai Ghat",
+   "lat": 24.577,
+   "lng": 73.679,
+   "category": "viewpoint",
+   "tags": [
+    "photography",
+    "lakes"
+   ],
+   "typical_visit_minutes": 30
+  },
+  {
+   "id": "demo-dashashwamedh-ghat",
+   "destination": "Varanasi",
+   "name": "Dashashwamedh Ghat",
+   "lat": 25.306,
+   "lng": 83.0107,
+   "category": "ghat",
+   "tags": [
+    "spiritual",
+    "ghats",
+    "photography"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-kashi-vishwanath-temple",
+   "destination": "Varanasi",
+   "name": "Kashi Vishwanath Temple",
+   "lat": 25.3109,
+   "lng": 83.0107,
+   "category": "temple",
+   "tags": [
+    "spiritual",
+    "temples"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-assi-ghat",
+   "destination": "Varanasi",
+   "name": "Assi Ghat",
+   "lat": 25.2867,
+   "lng": 83.0065,
+   "category": "ghat",
+   "tags": [
+    "spiritual",
+    "ghats"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-manikarnika-ghat",
+   "destination": "Varanasi",
+   "name": "Manikarnika Ghat",
+   "lat": 25.3109,
+   "lng": 83.014,
+   "category": "ghat",
+   "tags": [
+    "spiritual",
+    "ghats",
+    "culture"
+   ],
+   "typical_visit_minutes": 30
+  },
+  {
+   "id": "demo-sarnath",
+   "destination": "Varanasi",
+   "name": "Sarnath",
+   "lat": 25.3812,
+   "lng": 83.0236,
+   "category": "heritage_site",
+   "tags": [
+    "heritage",
+    "spiritual",
+    "museums"
+   ],
+   "typical_visit_minutes": 150
+  },
+  {
+   "id": "demo-ramnagar-fort",
+   "destination": "Varanasi",
+   "name": "Ramnagar Fort",
+   "lat": 25.2706,
+   "lng": 83.026,
+   "category": "fort",
+   "tags": [
+    "heritage",
+    "museums"
+   ],
+   "typical_visit_minutes": 75
+  },
+  {
+   "id": "demo-bharat-kala-bhavan-bhu",
+   "destination": "Varanasi",
+   "name": "Bharat Kala Bhavan (BHU)",
+   "lat": 25.2677,
+   "lng": 82.9913,
+   "category": "museum",
+   "tags": [
+    "museums",
+    "heritage"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-boat-ride-on-the-ganga",
+   "destination": "Varanasi",
+   "name": "Boat ride on the Ganga",
+   "lat": 25.305,
+   "lng": 83.01,
+   "category": "activity",
+   "tags": [
+    "spiritual",
+    "photography"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-basilica-of-bom-jesus",
+   "destination": "Goa",
+   "name": "Basilica of Bom Jesus",
+   "lat": 15.5009,
+   "lng": 73.9116,
+   "category": "church",
+   "tags": [
+    "heritage"
+   ],
+   "typical_visit_minutes": 45
+  },
+  {
+   "id": "demo-se-cathedral",
+   "destination": "Goa",
+   "name": "Se Cathedral",
+   "lat": 15.5039,
+   "lng": 73.9122,
+   "category": "church",
+   "tags": [
+    "heritage"
+   ],
+   "typical_visit_minutes": 30
+  },
+  {
+   "id": "demo-fort-aguada",
+   "destination": "Goa",
+   "name": "Fort Aguada",
+   "lat": 15.492,
+   "lng": 73.7737,
+   "category": "fort",
+   "tags": [
+    "heritage",
+    "forts",
+    "photography"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-calangute-beach",
+   "destination": "Goa",
+   "name": "Calangute Beach",
+   "lat": 15.5439,
+   "lng": 73.7553,
+   "category": "beach",
+   "tags": [
+    "beaches",
+    "relaxation"
+   ],
+   "typical_visit_minutes": 120
+  },
+  {
+   "id": "demo-baga-beach",
+   "destination": "Goa",
+   "name": "Baga Beach",
+   "lat": 15.5553,
+   "lng": 73.7517,
+   "category": "beach",
+   "tags": [
+    "beaches",
+    "nightlife"
+   ],
+   "typical_visit_minutes": 120
+  },
+  {
+   "id": "demo-anjuna-beach",
+   "destination": "Goa",
+   "name": "Anjuna Beach",
+   "lat": 15.5737,
+   "lng": 73.7404,
+   "category": "beach",
+   "tags": [
+    "beaches",
+    "shopping"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-fontainhas-panaji",
+   "destination": "Goa",
+   "name": "Fontainhas, Panaji",
+   "lat": 15.4975,
+   "lng": 73.8331,
+   "category": "neighbourhood",
+   "tags": [
+    "heritage",
+    "photography",
+    "food"
+   ],
+   "typical_visit_minutes": 75
+  },
+  {
+   "id": "demo-palolem-beach",
+   "destination": "Goa",
+   "name": "Palolem Beach",
+   "lat": 15.01,
+   "lng": 74.023,
+   "category": "beach",
+   "tags": [
+    "beaches",
+    "relaxation"
+   ],
+   "typical_visit_minutes": 150
+  },
+  {
+   "id": "demo-dudhsagar-falls",
+   "destination": "Goa",
+   "name": "Dudhsagar Falls",
+   "lat": 15.3144,
+   "lng": 74.3143,
+   "category": "waterfall",
+   "tags": [
+    "nature",
+    "adventure"
+   ],
+   "typical_visit_minutes": 240
+  },
+  {
+   "id": "demo-laxman-jhula",
+   "destination": "Rishikesh",
+   "name": "Laxman Jhula",
+   "lat": 30.1262,
+   "lng": 78.329,
+   "category": "landmark",
+   "tags": [
+    "photography",
+    "spiritual"
+   ],
+   "typical_visit_minutes": 45
+  },
+  {
+   "id": "demo-ram-jhula",
+   "destination": "Rishikesh",
+   "name": "Ram Jhula",
+   "lat": 30.124,
+   "lng": 78.315,
+   "category": "landmark",
+   "tags": [
+    "photography",
+    "spiritual"
+   ],
+   "typical_visit_minutes": 45
+  },
+  {
+   "id": "demo-triveni-ghat",
+   "destination": "Rishikesh",
+   "name": "Triveni Ghat",
+   "lat": 30.1034,
+   "lng": 78.297,
+   "category": "ghat",
+   "tags": [
+    "spiritual",
+    "ghats"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-parmarth-niketan",
+   "destination": "Rishikesh",
+   "name": "Parmarth Niketan",
+   "lat": 30.1227,
+   "lng": 78.3122,
+   "category": "ashram",
+   "tags": [
+    "spiritual",
+    "yoga"
+   ],
+   "typical_visit_minutes": 75
+  },
+  {
+   "id": "demo-beatles-ashram-chaurasi-kutia",
+   "destination": "Rishikesh",
+   "name": "Beatles Ashram (Chaurasi Kutia)",
+   "lat": 30.117,
+   "lng": 78.317,
+   "category": "heritage_site",
+   "tags": [
+    "heritage",
+    "photography"
+   ],
+   "typical_visit_minutes": 75
+  },
+  {
+   "id": "demo-neer-garh-waterfall",
+   "destination": "Rishikesh",
+   "name": "Neer Garh Waterfall",
+   "lat": 30.146,
+   "lng": 78.342,
+   "category": "waterfall",
+   "tags": [
+    "nature",
+    "adventure"
+   ],
+   "typical_visit_minutes": 120
+  },
+  {
+   "id": "demo-shivpuri-rafting-stretch",
+   "destination": "Rishikesh",
+   "name": "Shivpuri rafting stretch",
+   "lat": 30.144,
+   "lng": 78.388,
+   "category": "activity",
+   "tags": [
+    "adventure",
+    "rafting",
+    "nature"
+   ],
+   "typical_visit_minutes": 180
+  },
+  {
+   "id": "demo-chinese-fishing-nets-fort-kochi",
+   "destination": "Kochi",
+   "name": "Chinese Fishing Nets, Fort Kochi",
+   "lat": 9.9682,
+   "lng": 76.2419,
+   "category": "landmark",
+   "tags": [
+    "heritage",
+    "photography"
+   ],
+   "typical_visit_minutes": 45
+  },
+  {
+   "id": "demo-mattancherry-palace",
+   "destination": "Kochi",
+   "name": "Mattancherry Palace",
+   "lat": 9.9583,
+   "lng": 76.2594,
+   "category": "palace",
+   "tags": [
+    "heritage",
+    "museums"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-paradesi-synagogue",
+   "destination": "Kochi",
+   "name": "Paradesi Synagogue",
+   "lat": 9.9573,
+   "lng": 76.2594,
+   "category": "heritage_site",
+   "tags": [
+    "heritage"
+   ],
+   "typical_visit_minutes": 30
+  },
+  {
+   "id": "demo-st-francis-church",
+   "destination": "Kochi",
+   "name": "St. Francis Church",
+   "lat": 9.9659,
+   "lng": 76.2421,
+   "category": "church",
+   "tags": [
+    "heritage"
+   ],
+   "typical_visit_minutes": 30
+  },
+  {
+   "id": "demo-kerala-kathakali-centre",
+   "destination": "Kochi",
+   "name": "Kerala Kathakali Centre",
+   "lat": 9.964,
+   "lng": 76.243,
+   "category": "performance",
+   "tags": [
+    "culture"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-marine-drive-kochi",
+   "destination": "Kochi",
+   "name": "Marine Drive, Kochi",
+   "lat": 9.9779,
+   "lng": 76.2773,
+   "category": "promenade",
+   "tags": [
+    "photography",
+    "relaxation"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-eravikulam-national-park",
+   "destination": "Munnar",
+   "name": "Eravikulam National Park",
+   "lat": 10.1676,
+   "lng": 77.0605,
+   "category": "national_park",
+   "tags": [
+    "nature",
+    "wildlife",
+    "trekking"
+   ],
+   "typical_visit_minutes": 180
+  },
+  {
+   "id": "demo-mattupetty-dam",
+   "destination": "Munnar",
+   "name": "Mattupetty Dam",
+   "lat": 10.106,
+   "lng": 77.124,
+   "category": "lake",
+   "tags": [
+    "nature",
+    "lakes"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-tea-museum-munnar",
+   "destination": "Munnar",
+   "name": "Tea Museum, Munnar",
+   "lat": 10.093,
+   "lng": 77.058,
+   "category": "museum",
+   "tags": [
+    "museums",
+    "tea"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-top-station",
+   "destination": "Munnar",
+   "name": "Top Station",
+   "lat": 10.124,
+   "lng": 77.245,
+   "category": "viewpoint",
+   "tags": [
+    "nature",
+    "photography"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-backwaters-houseboat-cruise",
+   "destination": "Alleppey",
+   "name": "Backwaters houseboat cruise",
+   "lat": 9.4981,
+   "lng": 76.3388,
+   "category": "activity",
+   "tags": [
+    "backwaters",
+    "relaxation",
+    "nature"
+   ],
+   "typical_visit_minutes": 240
+  },
+  {
+   "id": "demo-alappuzha-beach",
+   "destination": "Alleppey",
+   "name": "Alappuzha Beach",
+   "lat": 9.49,
+   "lng": 76.317,
+   "category": "beach",
+   "tags": [
+    "beaches",
+    "relaxation"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-sabarmati-ashram",
+   "destination": "Ahmedabad",
+   "name": "Sabarmati Ashram",
+   "lat": 23.0607,
+   "lng": 72.5808,
+   "category": "museum",
+   "tags": [
+    "heritage",
+    "museums",
+    "history"
+   ],
+   "typical_visit_minutes": 75
+  },
+  {
+   "id": "demo-adalaj-stepwell",
+   "destination": "Ahmedabad",
+   "name": "Adalaj Stepwell",
+   "lat": 23.1667,
+   "lng": 72.5806,
+   "category": "monument",
+   "tags": [
+    "heritage",
+    "architecture",
+    "photography"
+   ],
+   "typical_visit_minutes": 45
+  },
+  {
+   "id": "demo-sidi-saiyyed-mosque",
+   "destination": "Ahmedabad",
+   "name": "Sidi Saiyyed Mosque",
+   "lat": 23.027,
+   "lng": 72.581,
+   "category": "monument",
+   "tags": [
+    "heritage",
+    "architecture"
+   ],
+   "typical_visit_minutes": 20
+  },
+  {
+   "id": "demo-calico-museum-of-textiles",
+   "destination": "Ahmedabad",
+   "name": "Calico Museum of Textiles",
+   "lat": 23.047,
+   "lng": 72.577,
+   "category": "museum",
+   "tags": [
+    "museums",
+    "heritage"
+   ],
+   "typical_visit_minutes": 120
+  },
+  {
+   "id": "demo-manek-chowk",
+   "destination": "Ahmedabad",
+   "name": "Manek Chowk",
+   "lat": 23.024,
+   "lng": 72.588,
+   "category": "market",
+   "tags": [
+    "food",
+    "shopping"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-sabarmati-riverfront",
+   "destination": "Ahmedabad",
+   "name": "Sabarmati Riverfront",
+   "lat": 23.03,
+   "lng": 72.575,
+   "category": "promenade",
+   "tags": [
+    "relaxation",
+    "photography"
+   ],
+   "typical_visit_minutes": 60
+  },
+  {
+   "id": "demo-bhadra-fort",
+   "destination": "Ahmedabad",
+   "name": "Bhadra Fort",
+   "lat": 23.025,
+   "lng": 72.581,
+   "category": "fort",
+   "tags": [
+    "heritage",
+    "forts"
+   ],
+   "typical_visit_minutes": 30
+  },
+  {
+   "id": "demo-kankaria-lake",
+   "destination": "Ahmedabad",
+   "name": "Kankaria Lake",
+   "lat": 23.006,
+   "lng": 72.601,
+   "category": "lake",
+   "tags": [
+    "family",
+    "relaxation",
+    "lakes"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-red-fort",
+   "destination": "Delhi",
+   "name": "Red Fort",
+   "lat": 28.6562,
+   "lng": 77.241,
+   "category": "fort",
+   "tags": [
+    "heritage",
+    "forts",
+    "history"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-qutub-minar",
+   "destination": "Delhi",
+   "name": "Qutub Minar",
+   "lat": 28.5245,
+   "lng": 77.1855,
+   "category": "monument",
+   "tags": [
+    "heritage",
+    "history",
+    "photography"
+   ],
+   "typical_visit_minutes": 75
+  },
+  {
+   "id": "demo-humayun-s-tomb",
+   "destination": "Delhi",
+   "name": "Humayun's Tomb",
+   "lat": 28.5933,
+   "lng": 77.2507,
+   "category": "monument",
+   "tags": [
+    "heritage",
+    "architecture"
+   ],
+   "typical_visit_minutes": 75
+  },
+  {
+   "id": "demo-india-gate",
+   "destination": "Delhi",
+   "name": "India Gate",
+   "lat": 28.6129,
+   "lng": 77.2295,
+   "category": "landmark",
+   "tags": [
+    "history",
+    "photography"
+   ],
+   "typical_visit_minutes": 30
+  },
+  {
+   "id": "demo-chandni-chowk",
+   "destination": "Delhi",
+   "name": "Chandni Chowk",
+   "lat": 28.6506,
+   "lng": 77.2303,
+   "category": "market",
+   "tags": [
+    "food",
+    "shopping",
+    "heritage"
+   ],
+   "typical_visit_minutes": 120
+  },
+  {
+   "id": "demo-lotus-temple",
+   "destination": "Delhi",
+   "name": "Lotus Temple",
+   "lat": 28.5535,
+   "lng": 77.2588,
+   "category": "temple",
+   "tags": [
+    "architecture",
+    "spiritual"
+   ],
+   "typical_visit_minutes": 45
+  },
+  {
+   "id": "demo-national-museum-new-delhi",
+   "destination": "Delhi",
+   "name": "National Museum, New Delhi",
+   "lat": 28.6118,
+   "lng": 77.2194,
+   "category": "museum",
+   "tags": [
+    "museums",
+    "history"
+   ],
+   "typical_visit_minutes": 120
+  },
+  {
+   "id": "demo-swaminarayan-akshardham",
+   "destination": "Delhi",
+   "name": "Swaminarayan Akshardham",
+   "lat": 28.6127,
+   "lng": 77.2773,
+   "category": "temple",
+   "tags": [
+    "spiritual",
+    "architecture"
+   ],
+   "typical_visit_minutes": 150
+  },
+  {
+   "id": "demo-taj-mahal",
+   "destination": "Agra",
+   "name": "Taj Mahal",
+   "lat": 27.1751,
+   "lng": 78.0421,
+   "category": "monument",
+   "tags": [
+    "heritage",
+    "photography",
+    "architecture"
+   ],
+   "typical_visit_minutes": 150
+  },
+  {
+   "id": "demo-agra-fort",
+   "destination": "Agra",
+   "name": "Agra Fort",
+   "lat": 27.1795,
+   "lng": 78.0211,
+   "category": "fort",
+   "tags": [
+    "heritage",
+    "forts",
+    "history"
+   ],
+   "typical_visit_minutes": 90
+  },
+  {
+   "id": "demo-mehtab-bagh",
+   "destination": "Agra",
+   "name": "Mehtab Bagh",
+   "lat": 27.18,
+   "lng": 78.043,
+   "category": "garden",
+   "tags": [
+    "photography",
+    "nature"
+   ],
+   "typical_visit_minutes": 45
+  },
+  {
+   "id": "demo-itimad-ud-daulah-s-tomb",
+   "destination": "Agra",
+   "name": "Itimad-ud-Daulah's Tomb",
+   "lat": 27.1925,
+   "lng": 78.031,
+   "category": "monument",
+   "tags": [
+    "heritage",
+    "architecture"
+   ],
+   "typical_visit_minutes": 45
+  },
+  {
+   "id": "demo-fatehpur-sikri",
+   "destination": "Agra",
+   "name": "Fatehpur Sikri",
+   "lat": 27.0945,
+   "lng": 77.6679,
+   "category": "heritage_site",
+   "tags": [
+    "heritage",
+    "history",
+    "architecture"
+   ],
+   "typical_visit_minutes": 150
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+# Full stack: PostgreSQL + Qdrant + FastAPI backend + Next.js frontend.
+#   cp .env.example .env   (fill in optional keys)
+#   docker compose up --build
+# Frontend: http://localhost:3000   API docs: http://localhost:8000/docs
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: yatra
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-yatra-local-dev-only}
+      POSTGRES_DB: yatra
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U yatra -d yatra"]
+      interval: 5s
+      retries: 10
+    ports: ["127.0.0.1:5433:5432"]
+
+  qdrant:
+    image: qdrant/qdrant:v1.12.5
+    volumes: [qdrant:/qdrant/storage]
+    ports: ["127.0.0.1:6333:6333"]
+
+  backend:
+    build:
+      context: ./backend
+      args:
+        INSTALL_ML: ${INSTALL_ML:-false}
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql+asyncpg://yatra:${POSTGRES_PASSWORD:-yatra-local-dev-only}@postgres:5432/yatra
+      QDRANT_URL: http://qdrant:6333
+      CORS_ORIGINS: http://localhost:3000
+    depends_on:
+      postgres: { condition: service_healthy }
+      qdrant: { condition: service_started }
+    ports: ["127.0.0.1:8000:8000"]
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        BACKEND_URL: http://backend:8000
+        NEXT_PUBLIC_GOOGLE_MAPS_EMBED_KEY: ${NEXT_PUBLIC_GOOGLE_MAPS_EMBED_KEY:-}
+    depends_on: [backend]
+    ports: ["127.0.0.1:3000:3000"]
+
+volumes:
+  pgdata:
+  qdrant:
